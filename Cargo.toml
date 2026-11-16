@@ -12,4 +12,4 @@ tempfile = "3.15"
 
 [target.'cfg(windows)'.dependencies]
 # eframe's minimal WGPU feature does not select a native graphics backend.
-wgpu = { version = "25", default-features = false, features = ["dx12"] }
+wgpu = { version = "30", default-features = false, features = ["dx12"] }
